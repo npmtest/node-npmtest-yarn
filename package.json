@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [yarn (v0.22.0)](https://github.com/yarnpkg/yarn#readme) [![npm package](https://img.shields.io/npm/v/npmtest-yarn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yarn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yarn.svg)](https://travis-ci.org/npmtest/node-npmtest-yarn)",
+    "description": "#### basic test coverage for  yarn (v0.23.2)  [![npm package](https://img.shields.io/npm/v/npmtest-yarn.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yarn) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yarn.svg)](https://travis-ci.org/npmtest/node-npmtest-yarn)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "2017.4.25"
 }
