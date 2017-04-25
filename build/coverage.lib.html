@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for node-npmtest-yarn/node_modules/yarn/lib/package-install-scripts.js</title>
+    <title>Code coverage report for node-npmtest-yarn/node_modules/yarn/lib-legacy/package-install-scripts.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,23 +194,23 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-yarn">npmtest-yarn (v0.0.2)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-yarn/node_modules/yarn/lib/package-install-scripts.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-yarn/node_modules/yarn/lib-legacy/package-install-scripts.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">10.27% <small>(19 / 185)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">13.71% <small>(27 / 197)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">0% <small>(0 / 84)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">0% <small>(0 / 104)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Functions: <span class="metric">0% <small>(0 / 26)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Functions: <span class="metric">0% <small>(0 / 30)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">10.86% <small>(19 / 175)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">14.44% <small>(27 / 187)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-yarn/node_modules/yarn/lib/</a> &#187; package-install-scripts.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-yarn/node_modules/yarn/lib-legacy/</a> &#187; package-install-scripts.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
@@ -553,10 +553,58 @@
 337
 338
 339
-340</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -898,16 +946,40 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 &nbsp;
+var _promise;
+&nbsp;
+<span class="fstat-no" title="function not covered" >function _load_promise() {</span>
+<span class="cstat-no" title="statement not covered" >  return _promise = _interopRequireDefault(require('babel-runtime/core-js/promise'));</span>
+}
+&nbsp;
 var _extends2;
 &nbsp;
 <span class="fstat-no" title="function not covered" >function _load_extends() {</span>
 <span class="cstat-no" title="statement not covered" >  return _extends2 = _interopRequireDefault(require('babel-runtime/helpers/extends'));</span>
 }
 &nbsp;
+var _stringify;
+&nbsp;
+<span class="fstat-no" title="function not covered" >function _load_stringify() {</span>
+<span class="cstat-no" title="statement not covered" >  return _stringify = _interopRequireDefault(require('babel-runtime/core-js/json/stringify'));</span>
+}
+&nbsp;
 var _slicedToArray2;
 &nbsp;
 <span class="fstat-no" title="function not covered" >function _load_slicedToArray() {</span>
 <span class="cstat-no" title="statement not covered" >  return _slicedToArray2 = _interopRequireDefault(require('babel-runtime/helpers/slicedToArray'));</span>
+}
+&nbsp;
+var _map;
+&nbsp;
+<span class="fstat-no" title="function not covered" >function _load_map() {</span>
+<span class="cstat-no" title="statement not covered" >  return _map = _interopRequireDefault(require('babel-runtime/core-js/map'));</span>
+}
+&nbsp;
+var _set;
+&nbsp;
+<span class="fstat-no" title="function not covered" >function _load_set() {</span>
+<span class="cstat-no" title="statement not covered" >  return _set = _interopRequireDefault(require('babel-runtime/core-js/set'));</span>
 }
 &nbsp;
 var _asyncToGenerator2;
@@ -972,8 +1044,8 @@ class PackageInstallScripts {
 <span class="cstat-no" title="statement not covered" >    var _this = this;</span>
 &nbsp;
 <span class="cstat-no" title="statement not covered" >    return (0, (_asyncToGenerator2 || _load_asyncToGenerator()).default)(<span class="fstat-no" title="function not covered" >function* () {</span></span>
-<span class="cstat-no" title="statement not covered" >      const files = yield (_fs || _load_fs()).walk(loc, null, new Set(_this.config.registryFolders));</span>
-<span class="cstat-no" title="statement not covered" >      const mtimes = new Map();</span>
+<span class="cstat-no" title="statement not covered" >      const files = yield (_fs || _load_fs()).walk(loc, null, new (_set || _load_set()).default(_this.config.registryFolders));</span>
+<span class="cstat-no" title="statement not covered" >      const mtimes = new (_map || _load_map()).default();</span>
 <span class="cstat-no" title="statement not covered" >      for (const file of files) {</span>
 <span class="cstat-no" title="statement not covered" >        mtimes.set(file.relative, file.mtime);</span>
       }
@@ -1013,7 +1085,7 @@ class PackageInstallScripts {
 <span class="cstat-no" title="statement not covered" >      metadata.artifacts = buildArtifacts;</span>
 &nbsp;
 <span class="cstat-no" title="statement not covered" >      const metadataLoc = path.join(cachedLoc, (_constants || _load_constants()).METADATA_FILENAME);</span>
-<span class="cstat-no" title="statement not covered" >      yield (_fs || _load_fs()).writeFile(metadataLoc, JSON.stringify((0, (_extends2 || _load_extends()).default)({}, metadata, {</span>
+<span class="cstat-no" title="statement not covered" >      yield (_fs || _load_fs()).writeFile(metadataLoc, (0, (_stringify || _load_stringify()).default)((0, (_extends2 || _load_extends()).default)({}, metadata, {</span>
 &nbsp;
         // config.readPackageMetadata also returns the package manifest but that's not in the original
         // metadata json
@@ -1137,7 +1209,7 @@ class PackageInstallScripts {
       }
 &nbsp;
       // detect circular dependency, mark this pkg as installable to break the circle
-<span class="cstat-no" title="statement not covered" >      if (this.detectCircularDependencies(pkg, new Set(), pkg)) {</span>
+<span class="cstat-no" title="statement not covered" >      if (this.detectCircularDependencies(pkg, new (_set || _load_set()).default(), pkg)) {</span>
 <span class="cstat-no" title="statement not covered" >        return pkg;</span>
       }
     }
@@ -1160,7 +1232,7 @@ class PackageInstallScripts {
         // can't find a package to install, register into waitQueue
 <span class="cstat-no" title="statement not covered" >        if (pkg == null) {</span>
 <span class="cstat-no" title="statement not covered" >          spinner.clear();</span>
-<span class="cstat-no" title="statement not covered" >          yield new Promise(<span class="fstat-no" title="function not covered" >function (resolve) {</span></span>
+<span class="cstat-no" title="statement not covered" >          yield new (_promise || _load_promise()).default(<span class="fstat-no" title="function not covered" >function (resolve) {</span></span>
 <span class="cstat-no" title="statement not covered" >            return waitQueue.add(resolve);</span>
           });
 <span class="cstat-no" title="statement not covered" >          continue;</span>
@@ -1184,12 +1256,12 @@ class PackageInstallScripts {
 <span class="cstat-no" title="statement not covered" >    var _this6 = this;</span>
 &nbsp;
 <span class="cstat-no" title="statement not covered" >    return (0, (_asyncToGenerator2 || _load_asyncToGenerator()).default)(<span class="fstat-no" title="function not covered" >function* () {</span></span>
-<span class="cstat-no" title="statement not covered" >      const workQueue = new Set();</span>
-<span class="cstat-no" title="statement not covered" >      const installed = new Set();</span>
+<span class="cstat-no" title="statement not covered" >      const workQueue = new (_set || _load_set()).default();</span>
+<span class="cstat-no" title="statement not covered" >      const installed = new (_set || _load_set()).default();</span>
 <span class="cstat-no" title="statement not covered" >      const pkgs = _this6.resolver.getTopologicalManifests(seedPatterns);</span>
 <span class="cstat-no" title="statement not covered" >      let installablePkgs = 0;</span>
       // A map to keep track of what files exist before installation
-<span class="cstat-no" title="statement not covered" >      const beforeFilesMap = new Map();</span>
+<span class="cstat-no" title="statement not covered" >      const beforeFilesMap = new (_map || _load_map()).default();</span>
 <span class="cstat-no" title="statement not covered" >      for (const pkg of pkgs) {</span>
 <span class="cstat-no" title="statement not covered" >        if (_this6.packageCanBeInstalled(pkg)) {</span>
 <span class="cstat-no" title="statement not covered" >          const ref = pkg._reference;</span>
@@ -1203,7 +1275,7 @@ class PackageInstallScripts {
 &nbsp;
       // waitQueue acts like a semaphore to allow workers to register to be notified
       // when there are more work added to the work queue
-<span class="cstat-no" title="statement not covered" >      const waitQueue = new Set();</span>
+<span class="cstat-no" title="statement not covered" >      const waitQueue = new (_set || _load_set()).default();</span>
 <span class="cstat-no" title="statement not covered" >      const workers = [];</span>
 &nbsp;
 <span class="cstat-no" title="statement not covered" >      const set = _this6.reporter.activitySet(installablePkgs, Math.min((_constants || _load_constants()).CHILD_CONCURRENCY, workQueue.size));</span>
@@ -1212,7 +1284,7 @@ class PackageInstallScripts {
 <span class="cstat-no" title="statement not covered" >        workers.push(_this6.worker(spinner, workQueue, installed, waitQueue));</span>
       }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >      yield Promise.all(workers);</span>
+<span class="cstat-no" title="statement not covered" >      yield (_promise || _load_promise()).default.all(workers);</span>
 &nbsp;
       // cache all build artifacts
 <span class="cstat-no" title="statement not covered" >      for (const pkg of pkgs) {</span>
@@ -1235,7 +1307,7 @@ exports.default = PackageInstallScripts;
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Mon Apr 17 2017 21:47:37 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 25 2017 21:52:33 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>
